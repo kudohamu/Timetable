@@ -6,18 +6,18 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "MainScene_.h"
+#import "MainScene.h"
 #import "NaviTextInputScene.h"
-#import "TextInputScene_.h"
+#import "TextInputScene.h"
 #import "ShowAllTableScene.h"
 
 #define MY_BANNER_UNIT_ID  @"d20a47e805bc4496"
 
-@interface MainScene_ (){
+@interface MainScene (){
 }
 @end
 
-@implementation MainScene_
+@implementation MainScene
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

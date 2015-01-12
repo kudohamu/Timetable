@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TextInputScene_ : UITableViewController<UITextFieldDelegate, UITextViewDelegate>{
+@interface TextInputScene : UITableViewController<UITextFieldDelegate, UITextViewDelegate>{
     NSString* activeTextName;
     NSString* ValuationRatio1;
     NSString* ValuationRatio2;

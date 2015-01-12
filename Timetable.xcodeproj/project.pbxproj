@@ -17,6 +17,7 @@
 		E650F3CD171926E40085C136 /* ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = E650F3CC171926E40085C136 /* ロゴ.png */; };
 		E650F3D117192F690085C136 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = E650F3D017192F690085C136 /* 03.png */; };
 		E6550AA21A578FDC006B86DE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E6550AA11A578FDC006B86DE /* libsqlite3.0.dylib */; };
+		E6550AA41A6362BF006B86DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6550AA31A6362BF006B86DE /* Default-568h@2x.png */; };
 		E65E515216C21D6800186200 /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = E65E515116C21D6800186200 /* frame1.png */; };
 		E668E40716BA18CB00F566FE /* AllorIndividual.m in Sources */ = {isa = PBXBuildFile; fileRef = E668E40616BA18CB00F566FE /* AllorIndividual.m */; };
 		E668E40A16BA18EB00F566FE /* DefaultorPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = E668E40916BA18EB00F566FE /* DefaultorPicture.m */; };
@@ -45,8 +46,8 @@
 		E69971ED1648D6A700699A0E /* _AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E69971EC1648D6A700699A0E /* _AppDelegate.m */; };
 		E69971F01648D6A700699A0E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69971EE1648D6A700699A0E /* MainStoryboard.storyboard */; };
 		E6997204164A393900699A0E /* SetupScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E6997203164A393900699A0E /* SetupScene.m */; };
-		E6997210164BAB6C00699A0E /* MainScene_.m in Sources */ = {isa = PBXBuildFile; fileRef = E699720F164BAB6C00699A0E /* MainScene_.m */; };
-		E6997219164BFDA600699A0E /* TextInputScene_.m in Sources */ = {isa = PBXBuildFile; fileRef = E6997218164BFDA600699A0E /* TextInputScene_.m */; };
+		E6997210164BAB6C00699A0E /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E699720F164BAB6C00699A0E /* MainScene.m */; };
+		E6997219164BFDA600699A0E /* TextInputScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E6997218164BFDA600699A0E /* TextInputScene.m */; };
 		E699721C164BFF4200699A0E /* NaviTextInputScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E699721B164BFF4200699A0E /* NaviTextInputScene.m */; };
 		E699721F164F6BAE00699A0E /* ValuationRatioScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E699721E164F6BAD00699A0E /* ValuationRatioScene.m */; };
 		E6997222164F904D00699A0E /* TimeSetScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E6997221164F904C00699A0E /* TimeSetScene.m */; };
@@ -72,6 +73,7 @@
 		E650F3CC171926E40085C136 /* ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ロゴ.png"; sourceTree = "<group>"; };
 		E650F3D017192F690085C136 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
 		E6550AA11A578FDC006B86DE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		E6550AA31A6362BF006B86DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		E65E515116C21D6800186200 /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
 		E668E40516BA18CB00F566FE /* AllorIndividual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllorIndividual.h; sourceTree = "<group>"; };
 		E668E40616BA18CB00F566FE /* AllorIndividual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllorIndividual.m; sourceTree = "<group>"; };
@@ -117,10 +119,10 @@
 		E69971EF1648D6A700699A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E6997202164A393900699A0E /* SetupScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupScene.h; sourceTree = "<group>"; };
 		E6997203164A393900699A0E /* SetupScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupScene.m; sourceTree = "<group>"; };
-		E699720E164BAB6C00699A0E /* MainScene_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene_.h; sourceTree = "<group>"; };
-		E699720F164BAB6C00699A0E /* MainScene_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene_.m; sourceTree = "<group>"; };
-		E6997217164BFDA600699A0E /* TextInputScene_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputScene_.h; sourceTree = "<group>"; };
-		E6997218164BFDA600699A0E /* TextInputScene_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputScene_.m; sourceTree = "<group>"; };
+		E699720E164BAB6C00699A0E /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		E699720F164BAB6C00699A0E /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		E6997217164BFDA600699A0E /* TextInputScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputScene.h; sourceTree = "<group>"; };
+		E6997218164BFDA600699A0E /* TextInputScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputScene.m; sourceTree = "<group>"; };
 		E699721A164BFF4200699A0E /* NaviTextInputScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviTextInputScene.h; sourceTree = "<group>"; };
 		E699721B164BFF4200699A0E /* NaviTextInputScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviTextInputScene.m; sourceTree = "<group>"; };
 		E699721D164F6BAD00699A0E /* ValuationRatioScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValuationRatioScene.h; sourceTree = "<group>"; };
@@ -157,6 +159,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6550AA51A6363C4006B86DE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E696B82E165B35F600B26C71 /* BGISelectScene.h */,
+				E696B82F165B35F600B26C71 /* BGISelectScene.m */,
+				E668E42016BFA4E300F566FE /* PictureEditScene.h */,
+				E668E42116BFA4E400F566FE /* PictureEditScene.m */,
+				E699721A164BFF4200699A0E /* NaviTextInputScene.h */,
+				E699721B164BFF4200699A0E /* NaviTextInputScene.m */,
+				E6997217164BFDA600699A0E /* TextInputScene.h */,
+				E6997218164BFDA600699A0E /* TextInputScene.m */,
+				E699721D164F6BAD00699A0E /* ValuationRatioScene.h */,
+				E699721E164F6BAD00699A0E /* ValuationRatioScene.m */,
+				E6997202164A393900699A0E /* SetupScene.h */,
+				E6997203164A393900699A0E /* SetupScene.m */,
+				E6997223164F907600699A0E /* TimeSelectScene.h */,
+				E6997224164F907600699A0E /* TimeSelectScene.m */,
+				E692C9C216521EBA00C8105C /* WeekSelectScene.h */,
+				E692C9C316521EBA00C8105C /* WeekSelectScene.m */,
+				E6997220164F904C00699A0E /* TimeSetScene.h */,
+				E6997221164F904C00699A0E /* TimeSetScene.m */,
+				E650F3C21717C9120085C136 /* ChangeTableTimeScene.h */,
+				E650F3C31717C9120085C136 /* ChangeTableTimeScene.m */,
+				E692C9BE1652192900C8105C /* TableSelectScene.h */,
+				E692C9BF1652192900C8105C /* TableSelectScene.m */,
+				E6F8BD531654FE6100FE8256 /* NotifySetScene.h */,
+				E6F8BD541654FE6100FE8256 /* NotifySetScene.m */,
+				E699720E164BAB6C00699A0E /* MainScene.h */,
+				E699720F164BAB6C00699A0E /* MainScene.m */,
+				E650F3BF1715A6A20085C136 /* ShowAllTableScene.h */,
+				E650F3C01715A6A20085C136 /* ShowAllTableScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 		E68EE666169BEA6100615465 /* AAMFeedback */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,48 +245,21 @@
 		E69971E21648D6A700699A0E /* Timetable */ = {
 			isa = PBXGroup;
 			children = (
+				E6550AA51A6363C4006B86DE /* Scenes */,
 				E69971EB1648D6A700699A0E /* _AppDelegate.h */,
 				E69971EC1648D6A700699A0E /* _AppDelegate.m */,
 				E69971EE1648D6A700699A0E /* MainStoryboard.storyboard */,
-				E699720E164BAB6C00699A0E /* MainScene_.h */,
-				E699720F164BAB6C00699A0E /* MainScene_.m */,
-				E650F3BF1715A6A20085C136 /* ShowAllTableScene.h */,
-				E650F3C01715A6A20085C136 /* ShowAllTableScene.m */,
 				E650F3C7171921E60085C136 /* UINavigationController+SetAutorotate.h */,
 				E650F3C8171921E70085C136 /* UINavigationController+SetAutorotate.m */,
-				E6997202164A393900699A0E /* SetupScene.h */,
-				E6997203164A393900699A0E /* SetupScene.m */,
-				E6997223164F907600699A0E /* TimeSelectScene.h */,
-				E6997224164F907600699A0E /* TimeSelectScene.m */,
-				E692C9C216521EBA00C8105C /* WeekSelectScene.h */,
-				E692C9C316521EBA00C8105C /* WeekSelectScene.m */,
-				E6997220164F904C00699A0E /* TimeSetScene.h */,
-				E6997221164F904C00699A0E /* TimeSetScene.m */,
-				E650F3C21717C9120085C136 /* ChangeTableTimeScene.h */,
-				E650F3C31717C9120085C136 /* ChangeTableTimeScene.m */,
-				E692C9BE1652192900C8105C /* TableSelectScene.h */,
-				E692C9BF1652192900C8105C /* TableSelectScene.m */,
-				E6F8BD531654FE6100FE8256 /* NotifySetScene.h */,
-				E6F8BD541654FE6100FE8256 /* NotifySetScene.m */,
 				E668E40516BA18CB00F566FE /* AllorIndividual.h */,
 				E668E40616BA18CB00F566FE /* AllorIndividual.m */,
 				E668E40B16BA1C4800F566FE /* WeekChoice.h */,
 				E668E40C16BA1C4800F566FE /* WeekChoice.m */,
 				E668E40816BA18EB00F566FE /* DefaultorPicture.h */,
 				E668E40916BA18EB00F566FE /* DefaultorPicture.m */,
-				E696B82E165B35F600B26C71 /* BGISelectScene.h */,
-				E696B82F165B35F600B26C71 /* BGISelectScene.m */,
 				E668E41D16BE791900F566FE /* PictureSelect.h */,
 				E668E41E16BE791A00F566FE /* PictureSelect.m */,
-				E668E42016BFA4E300F566FE /* PictureEditScene.h */,
-				E668E42116BFA4E400F566FE /* PictureEditScene.m */,
-				E699721A164BFF4200699A0E /* NaviTextInputScene.h */,
-				E699721B164BFF4200699A0E /* NaviTextInputScene.m */,
-				E6997217164BFDA600699A0E /* TextInputScene_.h */,
-				E6997218164BFDA600699A0E /* TextInputScene_.m */,
-				E699721D164F6BAD00699A0E /* ValuationRatioScene.h */,
-				E699721E164F6BAD00699A0E /* ValuationRatioScene.m */,
-				E699720D164A9C9800699A0E /* Image */,
+				E699720D164A9C9800699A0E /* Images */,
 				E69971E31648D6A700699A0E /* Supporting Files */,
 			);
 			path = Timetable;
@@ -266,9 +276,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E699720D164A9C9800699A0E /* Image */ = {
+		E699720D164A9C9800699A0E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E6550AA31A6362BF006B86DE /* Default-568h@2x.png */,
 				E650F3CC171926E40085C136 /* ロゴ.png */,
 				E650F3C51718671F0085C136 /* cat.png */,
 				E650F3A21712FDEE0085C136 /* 01.png */,
@@ -284,7 +295,7 @@
 				E69035A3165FDD11005EB3E8 /* iTunesArtwork.png */,
 				E69035A4165FDD11005EB3E8 /* iTunesArtwork@2x.png */,
 			);
-			name = Image;
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +363,7 @@
 				E68EE656169B16BC00615465 /* mail.jpg in Resources */,
 				E68EE681169BEA6100615465 /* Localizable.strings in Resources */,
 				E65E515216C21D6800186200 /* frame1.png in Resources */,
+				E6550AA41A6362BF006B86DE /* Default-568h@2x.png in Resources */,
 				E650F3A51712FDEE0085C136 /* 01.png in Resources */,
 				E650F3A61712FDEE0085C136 /* 02.png in Resources */,
 				E650F3A91712FE560085C136 /* frame.png in Resources */,
@@ -371,8 +383,8 @@
 				E69971E91648D6A700699A0E /* main.m in Sources */,
 				E69971ED1648D6A700699A0E /* _AppDelegate.m in Sources */,
 				E6997204164A393900699A0E /* SetupScene.m in Sources */,
-				E6997210164BAB6C00699A0E /* MainScene_.m in Sources */,
-				E6997219164BFDA600699A0E /* TextInputScene_.m in Sources */,
+				E6997210164BAB6C00699A0E /* MainScene.m in Sources */,
+				E6997219164BFDA600699A0E /* TextInputScene.m in Sources */,
 				E699721C164BFF4200699A0E /* NaviTextInputScene.m in Sources */,
 				E699721F164F6BAE00699A0E /* ValuationRatioScene.m in Sources */,
 				E6997222164F904D00699A0E /* TimeSetScene.m in Sources */,

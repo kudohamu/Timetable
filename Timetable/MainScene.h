@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainScene_ : UIViewController{
+@interface MainScene : UIViewController{
     
     UIScrollView *scrollView;
     

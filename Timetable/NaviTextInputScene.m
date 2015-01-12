@@ -7,7 +7,7 @@
 //
 
 #import "NaviTextInputScene.h"
-#import "TextInputScene_.h"
+#import "TextInputScene.h"
 
 @interface NaviTextInputScene ()
 

@@ -6,14 +6,14 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "TextInputScene_.h"
+#import "TextInputScene.h"
 #import "ValuationRatioScene.h"
 
-@interface TextInputScene_ ()
+@interface TextInputScene ()
 
 @end
 
-@implementation TextInputScene_
+@implementation TextInputScene
 @synthesize lessonName,professorName,roomName,homework,valuationBasis1,valuationBasis2;
 
 - (id)initWithStyle:(UITableViewStyle)style
