@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GADBannerView.h"
 
-@interface MainScene_ : UIViewController<GADBannerViewDelegate>{
-    GADBannerView *bannerView_;
+@interface MainScene_ : UIViewController{
     
     UIScrollView *scrollView;
     

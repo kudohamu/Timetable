@@ -10,8 +10,6 @@
 #import "BGISelectScene.h"
 #import "PictureSelect.h"
 
-#define MY_BANNER_UNIT_ID  @"d20a47e805bc4496"
-
 @interface DefaultorPicture ()
 
 @end
@@ -50,24 +48,6 @@
     [PictureButton addTarget:self action:@selector(PictureButtonPush) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:PictureButton];
     
-    bannerView_ = [[GADBannerView alloc] initWithFrame:CGRectMake(0.0, self.view.frame.size.height-GAD_SIZE_320x50.height-50, GAD_SIZE_320x50.width, GAD_SIZE_320x50.height)];
-    
-    // 広告の「ユニット ID」を指定する。これは AdMob パブリッシャー ID です。
-    bannerView_.adUnitID = MY_BANNER_UNIT_ID;
-    bannerView_.delegate = self;
-    
-    // ユーザーに広告を表示した場所に後で復元する UIViewController をランタイムに知らせて
-    // ビュー階層に追加する。
-    bannerView_.rootViewController = self;
-    [self.view addSubview:bannerView_];
-    
-    // 一般的なリクエストを行って広告を読み込む。
-    // For Testing
-    /*
-    GADRequest *rq = [GADRequest request];
-    //rq.testing = YES;
-    [bannerView_ loadRequest:rq];
-     */
 }
 
 -(void)DefaultButtonPush{

@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GADBannerView.h"
 
-@interface AllorIndividual : UIViewController<GADBannerViewDelegate>{
-    GADBannerView *bannerView_;
+@interface AllorIndividual : UIViewController {
 }
 
 @end

@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GADBannerView.h"
 
-@interface DefaultorPicture : UIViewController<GADBannerViewDelegate>{
-    GADBannerView *bannerView_;
+@interface DefaultorPicture : UIViewController {
+
 }
 
 @end

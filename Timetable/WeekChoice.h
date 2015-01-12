@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GADBannerView.h"
 
-@interface WeekChoice : UITableViewController<GADBannerViewDelegate>{
-    GADBannerView *bannerView_;
+@interface WeekChoice : UITableViewController {
 }
 
 @end
