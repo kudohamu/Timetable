@@ -10,6 +10,21 @@
 
 @interface MainScene : UIViewController{
     
+    enum DayOfWeek {
+        sun,
+        mon,
+        tue,
+        wed,
+        thu,
+        fri,
+        sat
+    };
+    
+    enum Semester {
+        first,
+        second
+    };
+    
     UIScrollView *scrollView;
     
     NSDate *setHomeworkDate;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>703850D3-859D-4582-BA43-04D4F3012DDC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Timetable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C20BC221870AF6F6218BE765EADC0C2A9961AB81</key>
+		<string>https://github.com/kudohamu/Timetable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Timetable.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C20BC221870AF6F6218BE765EADC0C2A9961AB81</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kudohamu/Timetable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C20BC221870AF6F6218BE765EADC0C2A9961AB81</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C20BC221870AF6F6218BE765EADC0C2A9961AB81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Timetable</string>
+		</dict>
+	</array>
+</dict>
+</plist>

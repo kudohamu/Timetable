@@ -1866,7 +1866,7 @@
     
     
     
-    
+    //背景画像に関する初期化
     BGIDictionary = [NSDictionary dictionary];
     ColorDictionary = [NSDictionary dictionary];
     AlphaDictionary = [NSDictionary dictionary];
